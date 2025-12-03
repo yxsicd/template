@@ -117,6 +117,75 @@
             <br/> 
         </div>
     </details>
+
+<!--EXPERT_CARD_JSON_CN
+    {
+      "version": "1.0",
+      "mode": "A",
+      "id": "{id_optional}",
+      "orcid": "{orcid_optional}",
+      "org_short": "{org_short_optional}",
+      "name": "{name_cn}",
+      "affiliation": "{aff_cn}",
+      "title": "{title_cn}",
+      "age": "{age_cn}",
+      "trl_level": "{trl_level}",          // 例如 "4"；保持为字符串，方便 JSON 解析
+      "trl_label": "{trl_cn}",
+      "directions": [
+        { "emoji": "{dir_emoji_1}", "name": "{dir_name_cn_1}" },
+        { "emoji": "{dir_emoji_2}", "name": "{dir_name_cn_2}" },
+        { "emoji": "{dir_emoji_3}", "name": "{dir_name_cn_3}" }
+      ],
+      "keywords": [{keywords_cn_array}],   // 例如 ["强化学习","多智能体"]
+      "recent_papers": [
+        {
+          "title": "{paper1_title}",
+          "year": "{paper1_year}",
+          "note": "{paper1_note_cn}"
+        },
+        {
+          "title": "{paper2_title}",
+          "year": "{paper2_year}",
+          "note": "{paper2_note_cn}"
+        }
+      ]
+    }
+    -->
+
+    <!--EXPERT_CARD_JSON_EN
+    {
+      "version": "1.0",
+      "mode": "A",
+      "id": "{id_optional}",
+      "orcid": "{orcid_optional}",
+      "org_short": "{org_short_optional}",
+      "name": "{name_en}",
+      "affiliation": "{aff_en}",
+      "title": "{title_en}",
+      "age": "{age_en}",
+      "trl_level": "{trl_level}",
+      "trl_label": "{trl_en}",
+      "directions": [
+        { "emoji": "{dir_emoji_1}", "name": "{dir_name_en_1}" },
+        { "emoji": "{dir_emoji_2}", "name": "{dir_name_en_2}" },
+        { "emoji": "{dir_emoji_3}", "name": "{dir_name_en_3}" }
+      ],
+      "keywords": [{keywords_en_array}],   // 例如 ["Reinforcement Learning","Multi-agent"]
+      "recent_papers": [
+        {
+          "title": "{paper1_title}",
+          "year": "{paper1_year}",
+          "note": "{paper1_note_en}"
+        },
+        {
+          "title": "{paper2_title}",
+          "year": "{paper2_year}",
+          "note": "{paper2_note_en}"
+        }
+      ]
+    }
+    -->
+
 </div>
 ```
 
